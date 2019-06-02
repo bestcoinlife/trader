@@ -14,7 +14,7 @@ contract BESTCOINLIFE
     uint8 public decimals = 6;
     uint256 public totalSupply = 5000000000 * (10 ** uint256(decimals));
     string public name = "BESTCOINLIFE";
-    string public symbol = "BCL";
+    string public symbol = "BCN";
 
     mapping (address => uint256) balances;
     mapping (address => mapping(address => uint256)) allowed;
